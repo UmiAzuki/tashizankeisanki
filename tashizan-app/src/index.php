@@ -2,6 +2,8 @@
 
 <?php
     $answer = 0;
+    $left = 0;
+    $right = 0;
     if(isset($_POST["button_sum"])){
         $left = $_POST["left"];
         $right = $_POST["right"];
